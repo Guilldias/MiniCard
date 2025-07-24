@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Portifólio
+    </title>
+</head>
+<body>
+   <section>
+
+       <header>   
+        <img src="./imagens/Imagem do WhatsApp de 2025-07-24 à(s) 13.50.24_b1974eef.jpg" alt="Guilherme Dias" class="profile-image">
+           <h1>Guilherme Dias</h1>
+           <p class="localidade">Petrolina-PE</p3>
+           <p id="cargo" style="font-style: italic;"></p>
+        </header>
+        <main>
+            <a href="https://github.com/dashboard"  class="button" style="font-size: 20px;" target="_blank"> GitHub <i class="bi bi-github"></i> </a>
+            <a href="https://www.linkedin.com/in/guilherme-dias-de-oliveira-822391265/" class="button"  target="_blank"  style="font-size: 20px;"> LinkedIn <i class="bi bi-linkedin"></i></a>
+            <a href="#" class="button"  target="_blank"  style="font-size: 20px;">Portifólio <i class="bi bi-globe"></i></a>
+            <a href="https://www.instagram.com/guiidias32?igsh=MTR6bGE1YnlrYjRtZg==" class="button"  target="_blank"  style="font-size: 20px;"> Instagram <i class="bi bi-instagram"></i></a>
+            <a  onclick="enviarEmail()" class="button"  target="_blank"  style="font-size: 20px;">contato <i class="bi bi-envelope"></i></a>
+        </main>
+        
+        <div>
+             <!--coloque o link do seu whatsapp aqui!-->
+            <a href="https://api.whatsapp.com/send?phone=5587981207656"
+            class="btn-flutuante"
+            title="Fale comigo">
+            <i class="bi bi-whatsapp"></i>
+            </a>
+        </div>
+
+        <!-- Contador de visitas -->
+        <div>
+        <p> visitantes: <span id="contador"></span>
+        </p>
+        </div>
+    
+    </section>
+    </footer>
+      <script src="Ent.js"></script> 
+    </body>
+</html>
