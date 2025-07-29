@@ -1,4 +1,5 @@
 
+
 const contador = document.getElementById('contador');
 
 let visitas = localStorage.getItem('visitas');
